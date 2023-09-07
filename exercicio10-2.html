@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 10 formulario 2</title>
+</head>
+
+<body>
+    <script>
+        let informacao = parseInt(prompt("Digite entre 3, 4 ou 5"))
+        let triangulo = 10.0
+        let quadrado = 15.0
+        let pentagono = 20.0
+
+        if (informacao == 3) {
+            document.write("É um triângulo com o perímetro " + triangulo);
+        } else
+            if (informacao == 4) {
+                document.write("É um quadrado com o perímetro " + quadrado);
+            }
+            else
+                if (informacao == 5) {
+                    document.write("É um pentágono com o perímetro " + pentagono);
+                } else
+                    if (informacao < 3) {
+                        document.write("Não é um polígono")
+                    }else{document.write("Polígono não identificado")}
+
+
+
+
+    </script>
+</body>
+
+</html>
